@@ -6,6 +6,12 @@ import Hero from "./components/Hero";
 import FeaturedProducts from "./components/FeaturedProducts";
 import AboutSection from "./components/AboutSection";
 import Testimonials from "./components/Testimonials";
+import ShopPage from "./pages/ShopPage";
+import CustomDesignPage from "./pages/CustomDesignPage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import ProfilePage from "./pages/ProfilePage";
+import CartPage from "./pages/CartPage";
 
 const Home = () => (
   <>
@@ -30,15 +36,12 @@ const App = () => {
       <main className="main">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/shop" element={<div>Shop Page (TBD)</div>} />
-          <Route
-            path="/custom-design"
-            element={<div>Custom Design Page (TBD)</div>}
-          />
-          <Route path="/about" element={<div>About Page (TBD)</div>} />
-          <Route path="/contact" element={<div>Contact Page (TBD)</div>} />
-          <Route path="/cart" element={<div>Cart Page (TBD)</div>} />
-          <Route path="/profile" element={<div>Profile Page (TBD)</div>} />
+          <Route path="/shop" element={<ShopPage />} />
+          <Route path="/custom-design" element={<CustomDesignPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/cart" element={<CartPage />} />
+          <Route path="/profile" element={<ProfilePage />} />
           <Route
             path="/product/:id"
             element={<div>Product Detail Page (TBD)</div>}

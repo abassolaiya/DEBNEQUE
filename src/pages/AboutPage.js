@@ -25,7 +25,7 @@ const AboutPage = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "Akinwale Debbie",
+      name: "Akinwale Abosede Deborah",
       role: "Founder & Creative Director",
       image:
         "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80",
@@ -147,7 +147,7 @@ const AboutPage = () => {
               <p>
                 Founded in 2015, DEBNEQUE emerged from a passion for creating
                 clothing that celebrates individuality and craftsmanship. Our
-                name combines "Debbie" and "Unique" - representing our
+                name combines "Deborah" and "Unique" - representing our
                 commitment to sophisticated style and one-of-a-kind designs.
               </p>
               <p>
@@ -273,7 +273,9 @@ const AboutPage = () => {
                 everyone deserves to wear pieces that reflect their unique
                 identity and make them feel confident and beautiful."
               </blockquote>
-              <p className="quote-author">- Akinwale Debbie, Founder</p>
+              <p className="quote-author">
+                - Akinwale Abosede Deborah, Founder
+              </p>
             </div>
             <div className="philosophy-image">
               <img

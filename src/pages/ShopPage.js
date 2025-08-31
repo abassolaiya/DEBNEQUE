@@ -106,8 +106,68 @@ const ShopPage = () => {
 
   const accessories = [
     {
+      id: "Dresses",
+      name: "Made to Fit",
+      products: [
+        {
+          id: 10,
+          name: "Elegant Evening Dress",
+          price: 120,
+          image:
+            "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+          tags: ["New"],
+        },
+        {
+          id: 11,
+          name: "Chic Silk Top",
+          price: 180,
+          image:
+            "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+          tags: ["Bestseller"],
+        },
+        {
+          id: 12,
+          name: "Tailored Blazer",
+          price: 95,
+          image:
+            "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1036&q=80",
+          tags: ["Popular"],
+        },
+      ],
+    },
+    {
+      id: "Dresses",
+      name: "Everyday Basics",
+      products: [
+        {
+          id: 10,
+          name: "V- neck basic top",
+          price: 120,
+          image:
+            "https://images.unsplash.com/photo-1525171254930-643fc658b64e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dG9wfGVufDB8fDB8fHww",
+          tags: ["New"],
+        },
+        {
+          id: 11,
+          name: "Chic Silk Top",
+          price: 180,
+          image:
+            "https://images.unsplash.com/photo-1548778943-5bbeeb1ba6c1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHRvcHxlbnwwfHwwfHx8MA%3D%3D",
+          tags: ["Bestseller"],
+        },
+        {
+          id: 12,
+          name: "Tailored Blazer",
+          price: 95,
+          image:
+            "https://images.unsplash.com/photo-1544450804-9e5f64cb18de?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRvcHxlbnwwfHwwfHx8MA%3D%3D",
+          tags: ["Popular"],
+        },
+      ],
+    },
+    {
       id: "bags",
-      name: "Handbags",
+      name: "HandMade Bags",
       products: [
         {
           id: 10,
@@ -135,36 +195,36 @@ const ShopPage = () => {
         },
       ],
     },
-    {
-      id: "shoes",
-      name: "Footwear",
-      products: [
-        {
-          id: 13,
-          name: "Elegant Heels",
-          price: 150,
-          image:
-            "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=776&q=80",
-          tags: ["New"],
-        },
-        {
-          id: 14,
-          name: "Designer Flats",
-          price: 130,
-          image:
-            "https://images.unsplash.com/photo-1560072810-1cffb09fafa0?ixlib=rb-4.0.3&auto=format&fit=crop&w=870&q=80",
-          tags: ["Bestseller"],
-        },
-        {
-          id: 15,
-          name: "Evening Sandals",
-          price: 110,
-          image:
-            "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=824&q=80",
-          tags: ["Popular"],
-        },
-      ],
-    },
+    // {
+    //   id: "shoes",
+    //   name: "Footwear",
+    //   products: [
+    //     {
+    //       id: 13,
+    //       name: "Elegant Heels",
+    //       price: 150,
+    //       image:
+    //         "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=776&q=80",
+    //       tags: ["New"],
+    //     },
+    //     {
+    //       id: 14,
+    //       name: "Designer Flats",
+    //       price: 130,
+    //       image:
+    //         "https://images.unsplash.com/photo-1560072810-1cffb09fafa0?ixlib=rb-4.0.3&auto=format&fit=crop&w=870&q=80",
+    //       tags: ["Bestseller"],
+    //     },
+    //     {
+    //       id: 15,
+    //       name: "Evening Sandals",
+    //       price: 110,
+    //       image:
+    //         "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=824&q=80",
+    //       tags: ["Popular"],
+    //     },
+    //   ],
+    // },
     {
       id: "jewelry",
       name: "Jewelry",
@@ -203,14 +263,14 @@ const ShopPage = () => {
     <div className="shop-page">
       <section className="shop-hero">
         <div className="container">
-          <h1 className="page-title">DEBNEQUE Collections</h1>
+          <h1 className="page-title">ShopDebneQue</h1>
           <p className="page-subtitle">
-            Discover our exclusive designs and accessories
+            MADE TO FIT. EVERYDAY BASICS. HANDMADE BAGS. JEWELRY.
           </p>
         </div>
       </section>
 
-      <section className="shop-categories">
+      {/* <section className="shop-categories">
         <div className="container">
           <div className="category-tabs">
             {categories.map((category) => (
@@ -227,9 +287,9 @@ const ShopPage = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="products-section">
+      {/* <section className="products-section">
         <div className="container">
           <div className="section-header">
             <h2 className="section-title">{currentCategory.name}</h2>
@@ -347,14 +407,14 @@ const ShopPage = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="accessories-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Complete Your Look</h2>
+            <h2 className="section-title">Everyday Luxury</h2>
             <p className="section-subtitle">
-              Discover our exquisite accessories
+              Tailored basics and accessories that elevate your daily style!
             </p>
           </div>
 

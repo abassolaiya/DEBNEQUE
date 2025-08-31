@@ -39,14 +39,14 @@ const Header = () => {
             className="nav-link"
             onClick={() => setIsMenuOpen(false)}
           >
-            Shop
+            ShopDebneque
           </Link>
           <Link
             to="/custom-design"
             className="nav-link"
             onClick={() => setIsMenuOpen(false)}
           >
-            Custom Design
+            DebnequeCustoms
           </Link>
           <Link
             to="/about"

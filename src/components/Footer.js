@@ -75,12 +75,12 @@ const Footer = () => {
           <ul className="footer-links">
             <li>
               <Link to="/shop" className="footer-link">
-                Shop
+                ShopDebneque
               </Link>
             </li>
             <li>
               <Link to="/custom-design" className="footer-link">
-                Custom Design
+                DebnequeCustoms
               </Link>
             </li>
             <li>
@@ -181,7 +181,7 @@ const Footer = () => {
                   strokeLinejoin="round"
                 />
               </svg>
-              info@debneque.com
+              debnequeofficial@gmail.com
             </p>
           </div>
         </div>

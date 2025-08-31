@@ -10,7 +10,7 @@ const AboutSection = () => {
             <h2 className="section-title">About DEBNEQUE</h2>
             <p className="about-text">
               DEBNEQUE blends timeless elegance with modern style, offering
-              ready-to-wear collections and bespoke designs tailored to your
+              bespoke designs and made-to-fit pieces that are tailored to your
               vision. Our creations are crafted with meticulous attention to
               detail and the finest materials.
             </p>
@@ -24,7 +24,7 @@ const AboutSection = () => {
                 <span className="stat-label">Years Experience</span>
               </div>
               <div className="stat">
-                <span className="stat-number">100%</span>
+                <span className="stat-number">99.9%</span>
                 <span className="stat-label">Satisfaction</span>
               </div>
             </div>
